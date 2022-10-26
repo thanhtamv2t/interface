@@ -74,7 +74,7 @@ const WalletRow = ({ walletName, walletType }: WalletRowProps) => {
             src={`/icons/wallets/coin98Wallet.png`}
             width="24px"
             height="24px"
-            alt={`coin98 wallet icon`}
+            alt={`Coin98 Wallet icon`}
           />
         );
       default:
@@ -178,7 +178,7 @@ export const WalletSelector = () => {
         walletName="Browser wallet"
         walletType={WalletType.INJECTED}
       />
-      <WalletRow key="coin98_wallet" walletName="Coin98 wallet" walletType={WalletType.COIN98} />
+      <WalletRow key="coin98_wallet" walletName="Coin98 Wallet" walletType={WalletType.COIN98} />
       <WalletRow
         key="walletconnect_wallet"
         walletName="WalletConnect"
